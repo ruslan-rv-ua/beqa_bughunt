@@ -10,14 +10,14 @@
         <meta name="author" content="Ruslan Iskov">
       
       
-        <link rel="canonical" href="http://ruslan.rv.ua/beqa_bughunt/p03_test_log.html">
+        <link rel="canonical" href="http://ruslan.rv.ua/beqa_bughunt/test_summary_report.html">
       
       <link rel="icon" href="assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.1">
     
     
       
-        <title>Test log - OdynokovTeam Bug Hunt 2022</title>
+        <title>Підсумковий звіт - OdynokovTeam Bug Hunt 2022</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#test-log" class="md-skip">
+        <a href="#_1" class="md-skip">
           Перейти до змісту
         </a>
       
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Test log
+              Підсумковий звіт
             
           </span>
         </div>
@@ -161,7 +161,7 @@
   
     <li class="md-nav__item">
       <a href="index.html" class="md-nav__link">
-        OdynokovTeam Bug Hunt 2022
+        Про проект
       </a>
     </li>
   
@@ -175,8 +175,8 @@
   
   
     <li class="md-nav__item">
-      <a href="p01_use_cases.html" class="md-nav__link">
-        Use cases
+      <a href="user_scenario.html" class="md-nav__link">
+        Сценарії користувача
       </a>
     </li>
   
@@ -190,9 +190,57 @@
   
   
     <li class="md-nav__item">
-      <a href="p02_decomposition.html" class="md-nav__link">
-        Decomposition
+      <a href="decomposition.html" class="md-nav__link">
+        Структурна декомпозиція
       </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Звіт про дефекти
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Звіт про дефекти" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Звіт про дефекти
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="bug_reports/bug_sample.html" class="md-nav__link">
+        Sample — This is BR Summary
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -214,75 +262,10 @@
         
       
       
-      <a href="p03_test_log.html" class="md-nav__link md-nav__link--active">
-        Test log
+      <a href="test_summary_report.html" class="md-nav__link md-nav__link--active">
+        Підсумковий звіт
       </a>
       
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="p05_test_summary_report.html" class="md-nav__link">
-        Test summary report
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" data-md-state="indeterminate" type="checkbox" id="__nav_6" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_6">
-          P04 bugs reports
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="P04 bugs reports" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
-          <span class="md-nav__icon md-icon"></span>
-          P04 bugs reports
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="p04_bugs_reports/bug_sample.html" class="md-nav__link">
-        Summary goes here {{summa}}
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -321,36 +304,8 @@
                 
 
 
-<h1 id="test-log">Test log</h1>
-<p>Вітаємо на нашому першому івенті OdynokovTeam Bug Hunt 2022!</p>
-<p>Що робити</p>
-<ol>
-<li>Ознайомитись з додатком</li>
-<li>Визначити основні сценарії використання (юз-кейси)</li>
-<li>Зробити декомпозицію</li>
-<li>Протестувати та зробити тест-лог</li>
-<li>На знайдені баги завести багрепорти</li>
-<li>Зробити тест саммарі репорт</li>
-</ol>
-<p>Правила </p>
-<ol>
-<li>Тестуємо веб сайт на десктопі та мобайлі (Android, iOS). </li>
-<li>Можна репортити якомога більше багів. </li>
-<li>В фінальний залік йде оцінка якості усіх тестових документів</li>
-</ol>
-<p>Ментори</p>
-<ol>
-<li>У кожної людини  буде персональний ментор, до якого ви можете звернутись по допомогу.</li>
-<li>Подивитись, хто ваш ментор можна тут: [OdynokovTeam Bug Hunt Results]
-(<a href="https://docs.google.com/spreadsheets/d/1lI43sQk1kBGjzJPwhmHAIaGFrSzSq4zZKj3k8uf0r4M/edit#gid=0">https://docs.google.com/spreadsheets/d/1lI43sQk1kBGjzJPwhmHAIaGFrSzSq4zZKj3k8uf0r4M/edit#gid=0</a>)</li>
-<li>Ментор може допомогти з описом багів, надати якісь ідеї для тестування, тощо. </li>
-<li>Менторам ЗАБОРОНЕНО описувати баги чи тестувати замість студентів. Тобто ментори консультують і допомагають, а не роблять за них роботу. </li>
-</ol>
-<p>Результати</p>
-<ol>
-<li>Результати можна буде подивитись <a href="https://docs.google.com/spreadsheets/d/1lI43sQk1kBGjzJPwhmHAIaGFrSzSq4zZKj3k8uf0r4M/edit?usp=sharing">тут</a></li>
-</ol>
-<p>Хай щастить!</p>
+<h1 id="_1">Підсумковий звіт</h1>
+<p>in progress</p>
 
               
             </article>
@@ -364,7 +319,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="p02_decomposition.html" class="md-footer__link md-footer__link--prev" aria-label="Назад: Decomposition" rel="prev">
+        <a href="bug_reports/bug_sample.html" class="md-footer__link md-footer__link--prev" aria-label="Назад: Sample — This is BR Summary" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -373,26 +328,11 @@
               <span class="md-footer__direction">
                 Назад
               </span>
-              Decomposition
+              Sample — This is BR Summary
             </div>
           </div>
         </a>
       
-      
-        
-        <a href="p05_test_summary_report.html" class="md-footer__link md-footer__link--next" aria-label="Вперед: Test summary report" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Вперед
-              </span>
-              Test summary report
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
       
     </nav>
   
@@ -415,7 +355,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["header.autohide", "navigation.instant", "navigation.sections", "navigation.expand"], "translations": {"clipboard.copy": "\u0421\u043a\u043e\u043f\u0456\u044e\u0432\u0430\u0442\u0438 \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copied": "\u0421\u043a\u043e\u043f\u0456\u0439\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "search.config.lang": "ru", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\u041f\u043e\u0448\u0443\u043a", "search.result.placeholder": "\u0420\u043e\u0437\u043f\u043e\u0447\u043d\u0456\u0442\u044c \u043f\u0438\u0441\u0430\u0442\u0438 \u0434\u043b\u044f \u043f\u043e\u0448\u0443\u043a\u0443", "search.result.none": "\u0417\u0431\u0456\u0433\u0456\u0432 \u043d\u0435 \u0437\u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u0417\u043d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0437\u0431\u0456\u0433", "search.result.other": "\u0417\u043d\u0430\u0439\u0434\u0435\u043d\u043e # \u0437\u0431\u0456\u0433\u0456\u0432", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["header.autohide", "navigation.instant"], "translations": {"clipboard.copy": "\u0421\u043a\u043e\u043f\u0456\u044e\u0432\u0430\u0442\u0438 \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copied": "\u0421\u043a\u043e\u043f\u0456\u0439\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "search.config.lang": "ru", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\u041f\u043e\u0448\u0443\u043a", "search.result.placeholder": "\u0420\u043e\u0437\u043f\u043e\u0447\u043d\u0456\u0442\u044c \u043f\u0438\u0441\u0430\u0442\u0438 \u0434\u043b\u044f \u043f\u043e\u0448\u0443\u043a\u0443", "search.result.none": "\u0417\u0431\u0456\u0433\u0456\u0432 \u043d\u0435 \u0437\u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u0417\u043d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0437\u0431\u0456\u0433", "search.result.other": "\u0417\u043d\u0430\u0439\u0434\u0435\u043d\u043e # \u0437\u0431\u0456\u0433\u0456\u0432", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
     
     
       <script src="assets/javascripts/bundle.8aa65030.min.js"></script>

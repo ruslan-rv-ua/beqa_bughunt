@@ -1,0 +1,8 @@
+nav:
+  - Про проект: index.md
+  - user_scenario.md
+  - decomposition.md
+  # - test_log.md
+  - Звіт про дефекти: bug_reports
+  - test_summary_report.md
+  

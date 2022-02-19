@@ -36,8 +36,8 @@ theme:
     - navigation.instant
     # or - navigation.tabs
     # or - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
+    # - navigation.sections
+    # - navigation.expand
     # - toc.integrate
 
 # css overrides to make high contrast theme
@@ -50,9 +50,10 @@ extra_css:
 # plugins: []
 plugins:
   - macros
+  # - awesome-pages
   # - search
-  # - awesome-pages:
-    # collapse_single_pages: true
+  - awesome-pages
+    # - collapse_single_pages: true
         
 # Customization
 extra:
@@ -103,5 +104,9 @@ markdown_extensions:
   - attr_list
 
 # nav:
-#   - Про цей курс: index.md
-#   - Мова програмування Python: about_python.md
+#   - index.md
+#   - Bug Reports: p04_bugs_reports
+
+# nav:
+#   - p04_bugs_reports
+#   # - index.md

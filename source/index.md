@@ -5,6 +5,19 @@ hide:
 ---
 # OdynokovTeam Bug Hunt 2022
 
+|Submitter|Ruslan Iskov|
+-|-
+Subject of Testing|[Команда з плавання для дорослих та дітей](http://odynokovteam.kiev.ua/about)
+Date|2022-02-18
+User scenario|in progress
+Decomposition|[done](decomposition.md) 
+Bug reports|in progress
+Test summary report|in progress
+<!--Test log|in progress-->
+
+<!--
+## Rules
+
 Вітаємо на нашому першому івенті OdynokovTeam Bug Hunt 2022!
 
 Що робити
@@ -36,3 +49,4 @@ hide:
 
 
 Хай щастить!
+-->
