@@ -38,7 +38,7 @@ def image_alt(violation):
         )
 
         save_report(report, severity=severity, report_id=report_id)
-        break
+        # break
 
 
 file = Path(__file__).parent / "results.json"

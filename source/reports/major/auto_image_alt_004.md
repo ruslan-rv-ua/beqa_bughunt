@@ -2,18 +2,18 @@
 hide:
 #  - navigation # Hide navigation
   - toc        # Hide table of contents
-report_id: {report_id}
-severity: {severity}
-title: {report_id}
-summary: Відсутній альтернативний текст у зображення з селектором `{selector}`
+report_id: image_alt_004
+severity: major
+title: image_alt_004
+summary: Відсутній альтернативний текст у зображення з селектором `img[imgfield="tn_img_1642337656771"]`
 ---
-<!-- # {{{summary}}} -->
-# Bug report `{report_id}`
+<!-- # {{summary}} -->
+# Bug report `image_alt_004`
 
-SUMMARY|{{{summary}}}
+SUMMARY|{{summary}}
 -|-
-ID|{report_id}
-SEVERITY|{severity}
+ID|image_alt_004
+SEVERITY|major
 
 ## Description
 
@@ -26,14 +26,14 @@ SEVERITY|{severity}
     :::HTML
     <img src="line.jpg" alt="">
 
-Вимога: [WCAG 1.1.1 Non-text Content](https://www.w3.org/TR/WCAG21/#non-text-content)
+Вимога: [WCAG 1.1.1 Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)
 
 ## Steps to reproduce
 
 |#|Step|
 -|-
 1|відкрий [odynokovteam.kiev.ua/about](http://odynokovteam.kiev.ua/about)
-2|користуючись DevTools знайди зображення з наступним CSS-селектором: `{selector}`
+2|користуючись DevTools знайди зображення з наступним CSS-селектором: `img[imgfield="tn_img_1642337656771"]`
 <!-- 3|переконайся що вказане зображення має текстову альтернативу -->
 
 ## Expected result
