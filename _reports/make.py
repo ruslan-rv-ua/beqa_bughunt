@@ -27,9 +27,9 @@ def image_alt(violation):
     severity = "major"
     violation_id = violation["id"].replace("-", "_")
     template = load_template(f"{violation_id}.md")
-    for n, node in enumerate(violation["nodes"], start=1):
+    for index, node in enumerate(violation["nodes"], start=1):
         selector = node["target"][0]
-        report_id = f"{violation_id}_{n:03d}"
+        report_id = f"{violation_id}_{index:03d}"
         report = template.format(
             selector=selector,
             report_id=report_id,

@@ -41,9 +41,9 @@ theme:
 
 # css overrides to make high contrast theme
 extra_css:
-  - __stylesheets__/dark_theme.css
-  - __stylesheets__/codehilite.css
-  - __stylesheets__/fixes.css
+  - stylesheets/dark_theme.css
+  - stylesheets/codehilite.css
+  - stylesheets/fixes.css
 
 # switch off plugins, it's for removing 'search' feature
 # plugins: []
