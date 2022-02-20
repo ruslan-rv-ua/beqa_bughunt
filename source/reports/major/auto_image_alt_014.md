@@ -21,12 +21,19 @@ SEVERITY|major
 щоб користувачі скрінрідерів розуміли його призначення. 
 
 Якщо зображення не несе смислового навантаження (наприклад декоративне), 
-тоді текстова альтернатива повинна містити пусте значення, наприклад:
+тоді текстова альтернатива повинна містити пусте значення. 
+У такому разі скрінрідер буде ігнорувати зображення.
+Наприклад:
 
     :::HTML
     <img src="line.jpg" alt="">
 
-Вимога: [WCAG 1.1.1 Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)
+Вимога: [WCAG 1.1.1 Non-text Content](https://www.w3.org/TR/WCAG21/#non-text-content)
+
+## Environment
+
+- Windows 10 (64-біт) Версія 21H1 (збірка системи 19043.1526)
+- Mozilla Firefox 97.0.1 (64-біт)
 
 ## Steps to reproduce
 

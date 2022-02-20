@@ -316,6 +316,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#environment" class="md-nav__link">
+    Environment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#steps-to-reproduce" class="md-nav__link">
     Steps to reproduce
   </a>
@@ -717,6 +724,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#environment" class="md-nav__link">
+    Environment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#steps-to-reproduce" class="md-nav__link">
     Steps to reproduce
   </a>
@@ -775,11 +789,18 @@
 <p>Кожне зображення повино мати текстову альтернативу 
 щоб користувачі скрінрідерів розуміли його призначення. </p>
 <p>Якщо зображення не несе смислового навантаження (наприклад декоративне), 
-тоді текстова альтернатива повинна містити пусте значення, наприклад:</p>
+тоді текстова альтернатива повинна містити пусте значення. 
+У такому разі скрінрідер буде ігнорувати зображення.
+Наприклад:</p>
 <div class="codehilite"><pre><span></span><code><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;line.jpg&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
 </code></pre></div>
 
-<p>Вимога: <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">WCAG 1.1.1 Non-text Content</a></p>
+<p>Вимога: <a href="https://www.w3.org/TR/WCAG21/#non-text-content">WCAG 1.1.1 Non-text Content</a></p>
+<h2 id="environment">Environment</h2>
+<ul>
+<li>Windows 10 (64-біт) Версія 21H1 (збірка системи 19043.1526)</li>
+<li>Mozilla Firefox 97.0.1 (64-біт)</li>
+</ul>
 <h2 id="steps-to-reproduce">Steps to reproduce</h2>
 <table>
 <thead>
