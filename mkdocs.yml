@@ -1,14 +1,14 @@
 # Project information
-site_name: 'OdynokovTeam Bug Hunt 2022'
-site_description: ''
-site_url: 'http://ruslan.rv.ua/beqa_bughunt/'
-site_author: 'Ruslan Iskov'
+site_name: "OdynokovTeam Bug Hunt 2022"
+site_description: ""
+site_url: "http://ruslan.rv.ua/beqa_bughunt/"
+site_author: "Ruslan Iskov"
 site_dir: '.\docs'
 docs_dir: '.\source'
 
 use_directory_urls: false
 strict: true
-dev_addr: '127.0.0.1:8010'
+dev_addr: "127.0.0.1:8010"
 
 # Repository
 ### repo_name: 'squidfunk/mkdocs-material'
@@ -17,9 +17,8 @@ dev_addr: '127.0.0.1:8010'
 #repo_url: 'http://ruslan.rv.ua/winter_design_school/'
 # remote_branch: master
 
-
 # Copyright
-copyright: 'Copyright &copy; Ruslan Iskov'
+copyright: "Copyright &copy; Ruslan Iskov"
 
 # Configuration
 theme:
@@ -29,8 +28,8 @@ theme:
     logo: material/bug
   palette:
     scheme: slate # default
-    primary: 'black'
-    accent: 'yellow'
+    primary: black
+    accent: "yellow"
   features:
     - header.autohide
     - navigation.instant
@@ -42,9 +41,9 @@ theme:
 
 # css overrides to make high contrast theme
 extra_css:
-  - stylesheets/dark_theme.css
-  - stylesheets/codehilite.css
-  - stylesheets/fixes.css
+  - __stylesheets__/dark_theme.css
+  - __stylesheets__/codehilite.css
+  - __stylesheets__/fixes.css
 
 # switch off plugins, it's for removing 'search' feature
 # plugins: []
@@ -54,21 +53,6 @@ plugins:
   # - search
   - awesome-pages
     # - collapse_single_pages: true
-        
-# Customization
-extra:
-  # last_updated: 'червень 2021 року'
-  generator: false
-#   social:
-#    - type: 'github'
-#      link: 'https://github.com/squidfunk'
-#    - type: 'twitter'
-#      link: 'https://twitter.com/squidfunk'
-#    - type: 'linkedin'
-#      link: 'https://linkedin.com/in/squidfunk'
-#    search:
-#        language: 'en, ru'
-    
 
 # Google Analytics
 # google_analytics:
@@ -103,10 +87,20 @@ markdown_extensions:
   - pymdownx.tilde
   - attr_list
 
+# Customization
+extra:
+  # last_updated: 'червень 2021 року'
+  generator: false
+#   social:
+#    - type: 'github'
+#      link: 'https://github.com/squidfunk'
+#    - type: 'twitter'
+#      link: 'https://twitter.com/squidfunk'
+#    - type: 'linkedin'
+#      link: 'https://linkedin.com/in/squidfunk'
+#    search:
+#        language: 'en, ru'
+
 # nav:
 #   - index.md
 #   - Bug Reports: p04_bugs_reports
-
-# nav:
-#   - p04_bugs_reports
-#   # - index.md

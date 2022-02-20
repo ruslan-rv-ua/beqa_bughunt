@@ -3,6 +3,6 @@ nav:
   - user_scenario.md
   - decomposition.md
   # - test_log.md
-  - Звіт про дефекти: bug_reports
+  - Звіт про дефекти: reports
   - test_summary_report.md
   

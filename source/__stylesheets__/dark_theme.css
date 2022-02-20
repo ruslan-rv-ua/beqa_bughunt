@@ -27,10 +27,12 @@ Main headlines
 Tables
 */
 tbody {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  /* was: background-color: rgba(255, 255, 255, 0.05) !important; */
+  background-color: black !important;
 }
 
 .md-typeset table:not([class]) th {
+  /* was: background-color: rgba(255,255,255,0.11) !important; */
   background-color: rgba(255,255,255,0.11) !important;
 }
 
