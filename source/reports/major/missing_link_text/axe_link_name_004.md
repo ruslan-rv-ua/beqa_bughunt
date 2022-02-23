@@ -5,7 +5,7 @@ hide:
 report_id: link_name_004
 severity: major
 title: link_name_004
-summary: 
+summary: Відсутнє текстове значення у посилання з селектором `.tn-elem__4015335641642340072159 > a`
 ---
 Bug report `link_name_004`
 

@@ -3,8 +3,6 @@ hide:
 #  - navigation # Hide navigation
  - toc        # Hide table of contents
 ---
-# Test log
+# Журнал тестування
 
-## [in progress]
-
-Test log goes here
+in progress

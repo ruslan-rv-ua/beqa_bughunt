@@ -3,16 +3,17 @@ hide:
 #  - navigation # Hide navigation
  - toc        # Hide table of contents
 ---
-# OdynokovTeam Bug Hunt 2022
+# Accessibility Testing: OdynokovTeam
 
 |Submitter|Ruslan Iskov|
 -|-
 Subject of Testing|[Команда з плавання для дорослих та дітей](http://odynokovteam.kiev.ua/about)
 Date|2022-02-18
-User scenario|in progress
+User scenario|[done](user_scenario.md)
 Decomposition|[done](decomposition.md) 
-Bug reports|in progress
-Test summary report|in progress
+Test log|[in progress](test_log.md)
+Bug reports|[in progress](bugs_list.md)
+Test summary report|[in progress](test_summary_report.md)
 <!--Test log|in progress-->
 
 <!--

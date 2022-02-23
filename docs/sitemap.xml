@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/bugs_list.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>http://ruslan.rv.ua/beqa_bughunt/decomposition.html</loc>
          <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>

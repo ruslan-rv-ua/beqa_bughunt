@@ -6,7 +6,7 @@ hide:
 report_id: {{report_id}}
 severity: {{severity}}
 title: {{report_id}}
-summary: 
+summary: {{summary}}
 ---
 Bug report `{{report_id}}`
 
