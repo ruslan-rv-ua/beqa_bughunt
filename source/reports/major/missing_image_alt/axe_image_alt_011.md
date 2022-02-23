@@ -1,19 +1,18 @@
-{% set summary = "Відсутній альтернативний текст у зображення з селектором `" + selector + "`" -%}
 ---
 hide:
 #  - navigation # Hide navigation
   - toc        # Hide table of contents
-report_id: {{report_id}}
-severity: {{severity}}
-title: {{report_id}}
-summary: {{summary}}
+report_id: image_alt_011
+severity: major
+title: image_alt_011
+summary: Відсутній альтернативний текст у зображення з селектором `.t-slds__item_active > .t-margin_auto.t-width.t-width_6 > .t-slds__wrapper.t-align_center > .t605__img.t605__img_circle[imgfield="li_img__1618401850387"]`
 ---
-# Bug report `{{report_id}}`
+# Bug report `image_alt_011`
 
-SUMMARY|{{summary}}
+SUMMARY|Відсутній альтернативний текст у зображення з селектором `.t-slds__item_active > .t-margin_auto.t-width.t-width_6 > .t-slds__wrapper.t-align_center > .t605__img.t605__img_circle[imgfield="li_img__1618401850387"]`
 -|-
-ID|{{report_id}}
-SEVERITY|{{severity}}
+ID|image_alt_011
+SEVERITY|major
 
 ## Description
 
@@ -40,12 +39,12 @@ SEVERITY|{{severity}}
 |#|Step|
 -|-
 1|відкрий [odynokovteam.kiev.ua/about](http://odynokovteam.kiev.ua/about)
-2|користуючись DevTools знайди зображення з наступним CSS-селектором: `{{selector}}`
+2|користуючись DevTools знайди зображення з наступним CSS-селектором: `.t-slds__item_active > .t-margin_auto.t-width.t-width_6 > .t-slds__wrapper.t-align_center > .t605__img.t605__img_circle[imgfield="li_img__1618401850387"]`
 <!-- 3|переконайся що вказане зображення має текстову альтернативу -->
 
 ## Expected result
 
-Зображення з CSS-селектором `{{selector}}` має текстову альтернативу. 
+Зображення з CSS-селектором `.t-slds__item_active > .t-margin_auto.t-width.t-width_6 > .t-slds__wrapper.t-align_center > .t605__img.t605__img_circle[imgfield="li_img__1618401850387"]` має текстову альтернативу. 
 Її значення:
 
 - пустий текст, якщо зображення не несе смислового навантаження
@@ -53,5 +52,5 @@ SEVERITY|{{severity}}
 
 ## Actual result
 
-У зображення з CSS-селектором `{{selector}}` 
+У зображення з CSS-селектором `.t-slds__item_active > .t-margin_auto.t-width.t-width_6 > .t-slds__wrapper.t-align_center > .t605__img.t605__img_circle[imgfield="li_img__1618401850387"]` 
 відсутній альтернативний текст

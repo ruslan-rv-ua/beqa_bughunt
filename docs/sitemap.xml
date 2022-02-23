@@ -2,147 +2,232 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://ruslan.rv.ua/beqa_bughunt/index.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://ruslan.rv.ua/beqa_bughunt/decomposition.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://ruslan.rv.ua/beqa_bughunt/test_log.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://ruslan.rv.ua/beqa_bughunt/test_summary_report.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://ruslan.rv.ua/beqa_bughunt/user_scenario.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/bug_sample.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/critical/broken_link_signup/man_broken_link_signup_001.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_001.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/critical/broken_link_signup/man_broken_link_signup_002.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_002.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/critical/broken_link_signup/man_broken_link_signup_003.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_003.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_001.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_004.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_002.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_005.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_003.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_006.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_004.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_007.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_005.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_008.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_006.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_009.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_007.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_010.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_008.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_011.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_009.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_012.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_010.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_013.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_011.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_014.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_012.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_015.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_013.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_016.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_014.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_017.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_015.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_018.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_016.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_019.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_017.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_020.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_018.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_021.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_019.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_022.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_020.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/auto_image_alt_023.html</loc>
-         <lastmod>2022-02-20</lastmod>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_021.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_022.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_image_alt/axe_image_alt_023.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_001.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_002.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_003.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_004.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_005.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_006.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_007.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_008.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_009.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_010.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_011.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_012.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_013.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_014.html</loc>
+         <lastmod>2022-02-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://ruslan.rv.ua/beqa_bughunt/reports/major/missing_link_text/axe_link_name_015.html</loc>
+         <lastmod>2022-02-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
